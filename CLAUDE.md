@@ -37,7 +37,7 @@ flowchart LR
 5. **FPGA → Host (USB-UART · FT2232):** the FPGA reports best bid/ask, a checksum, and latency back to the host.
 6. **Host compare:** the host's reference OrderBook (built from the same ITCH) is checked against the FPGA's report.
 
-## Verify
+## Verify   
 
 **Host OrderBook == FPGA OrderBook**, compared via the UART readout.
 
